@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fruit Burst</title>
 
+    <!-- lato font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+
     <!-- Favicon -->
     <link rel="shortcut icon" href="./images/logo.svg" type="image/x-icon">
 
@@ -21,13 +26,56 @@
             extend: {
               colors: {
                 clifford: '#da373d',
-              }
+              },
+              maxWidth: {
+                'xxl': '1440px',
+              },
+							screens: {
+								'nav-break': '1270px',
+							}
             }
           }
         }
     </script>
 </head>
 <body>
-    <h1>Fruit Burst</h1>
+	<!-- navbar -->
+	<header class="max-w-xxl mx-auto my-11 nav-break:my-14">
+		<nav class="navbar nav-break:text-white nav-break:bg-[#F85559] nav-break:grid nav-break:grid-cols-3 nav-break:justify-items-center nav-break:items-center nav-break:rounded-[600px] nav-break:py-9">
+			<div class="hidden nav-break:block nav-break:justify-self-start pl-12">
+				<ul class="menu menu-horizontal px-1 text-lg">
+					<li><a>Home</a></li>
+					<li><a>About Us</a></li>
+					<li><a>Shop</a></li>
+					<li><a>All Fruits</a></li>
+				</ul>
+			</div>
+			<div class="flex justify-between w-full nav-break:w-auto">
+				<a class="btn btn-ghost normal-case text-xl lg:text-4xl font-bold">
+					<div class="flex justify-center items-center gap-4">
+						<img class="h-[30px] lg:h-[60px] lg:-mt-3" src="./images/logo.svg" alt="Logo">
+						<span>Fruit Burst</span>
+					</div>
+				</a>
+				<div class="dropdown">
+					<label tabindex="0" class="btn btn-ghost nav-break:hidden">
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-6 h-6 lg:w-8 lg:h-8 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+					</label>
+					<ul tabindex="0" class="menu menu-sm dropdown-content text-lg font-medium mt-3 z-[1] p-2 w-56 shadow bg-base-100 rounded-box right-0 text-black">
+						<li><a>Home</a></li>
+						<li><a>About Us</a></li>
+						<li><a>Shop</a></li>
+						<li><a>All Fruits</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="hidden nav-break:block nav-break:justify-self-end relative pr-12">
+				<svg class="absolute right-[80px] top-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+					<path d="M20.9998 21L15.8028 15.803M15.8028 15.803C17.2094 14.3965 17.9996 12.4887 17.9996 10.4995C17.9996 8.51035 17.2094 6.60262 15.8028 5.19605C14.3962 3.78947 12.4885 2.99927 10.4993 2.99927C8.51011 2.99927 6.60238 3.78947 5.19581 5.19605C3.78923 6.60262 2.99902 8.51035 2.99902 10.4995C2.99902 12.4887 3.78923 14.3965 5.19581 15.803C6.60238 17.2096 8.51011 17.9998 10.4993 17.9998C12.4885 17.9998 14.3962 17.2096 15.8028 15.803Z" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+				</svg>
+				<input type="search" placeholder="Search here" class="input rounded-[50px] w-[400px] pl-7 py-4 self-center" />
+			</div>
+		</nav>
+	</header>
 </body>
 </html>
