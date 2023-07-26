@@ -81,7 +81,7 @@
 
 	<main>
 		<!-- banner -->
-		<div class="carousel flex max-w-xxl lg:mx-auto h-[300px] md:h-auto mx-5 rounded-lg">
+		<section class="carousel flex max-w-xxl lg:mx-auto h-[300px] md:h-auto mx-5 rounded-lg">
 			<div id="slide1" class="carousel-item relative w-full">
 				<div class="absolute z-10 w-full text-center pt-16 lg:pt-20 text-white bg-gradient-to-t from-[#12121200] to-[#121212FF]">
 					<h1 class="font-extrabold text-2xl lg:text-7xl">Exotic tastes at your<br>doorstep</h1>
@@ -162,10 +162,10 @@
 				</a>
 			  </div>
 			</div> 
-		</div>
+		</section>
 
 		<!-- fruits after banner -->
-		<div class="banner-fruits hidden lg:flex max-w-[1140px] mx-auto justify-between text-center p-12 relative  -top-[6vw] z-40 bg-white rounded-lg shadow-md">
+		<section class="banner-fruits hidden lg:flex max-w-[1140px] mx-auto justify-between text-center p-12 relative  -top-[6vw] z-40 bg-white rounded-lg shadow-md">
 			<div class="fruit-item">
 				<img src="./images/fruit1.png" alt="fruit1">
 				<span>Raspberry</span>
@@ -186,7 +186,146 @@
 				<img src="./images/fruit5.png" alt="fruit1">
 				<span>Mango</span>
 			</div>
-		</div>
+		</section>
+
+		<!-- deal of the day -->
+		<section class="max-w-xxl lg:mx-auto mx-5 mt-6">
+			<div class="flex justify-between flex-col lg:flex-row text-center lg:text-left">
+				<div>
+					<h2 class="text-xl lg:text-5xl font-extrabold">Deal of the day</h2>
+					<p class="font-light text-sm mt-2 lg:mt-6 mb-5 lg:mb-auto max-w-sm mx-auto lg:max-w-xl">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+				</div>
+
+				<div class="grid grid-flow-col gap-2 md:gap-5 text-center auto-cols-max justify-center">
+					<div class="flex flex-col">
+					  <span class="countdown font-mono text-5xl">
+						<span style="--value:15;"></span>
+					  </span>
+					  <span class="text-[#12121299] mt-4">Days</span>
+					</div>
+					<svg class="mt-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+						<path d="M12 6.75C11.8011 6.75 11.6103 6.67098 11.4697 6.53033C11.329 6.38968 11.25 6.19891 11.25 6C11.25 5.80109 11.329 5.61032 11.4697 5.46967C11.6103 5.32902 11.8011 5.25 12 5.25C12.1989 5.25 12.3897 5.32902 12.5303 5.46967C12.671 5.61032 12.75 5.80109 12.75 6C12.75 6.19891 12.671 6.38968 12.5303 6.53033C12.3897 6.67098 12.1989 6.75 12 6.75ZM12 12.75C11.8011 12.75 11.6103 12.671 11.4697 12.5303C11.329 12.3897 11.25 12.1989 11.25 12C11.25 11.8011 11.329 11.6103 11.4697 11.4697C11.6103 11.329 11.8011 11.25 12 11.25C12.1989 11.25 12.3897 11.329 12.5303 11.4697C12.671 11.6103 12.75 11.8011 12.75 12C12.75 12.1989 12.671 12.3897 12.5303 12.5303C12.3897 12.671 12.1989 12.75 12 12.75ZM12 18.75C11.8011 18.75 11.6103 18.671 11.4697 18.5303C11.329 18.3897 11.25 18.1989 11.25 18C11.25 17.8011 11.329 17.6103 11.4697 17.4697C11.6103 17.329 11.8011 17.25 12 17.25C12.1989 17.25 12.3897 17.329 12.5303 17.4697C12.671 17.6103 12.75 17.8011 12.75 18C12.75 18.1989 12.671 18.3897 12.5303 18.5303C12.3897 18.671 12.1989 18.75 12 18.75Z" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+					</svg>
+					<div class="flex flex-col">
+					  <span class="countdown font-mono text-5xl">
+						<span style="--value:10;"></span>
+					  </span>
+					  <span class="text-[#12121299] mt-4">Hours</span>
+					</div> 
+					<svg class="mt-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+						<path d="M12 6.75C11.8011 6.75 11.6103 6.67098 11.4697 6.53033C11.329 6.38968 11.25 6.19891 11.25 6C11.25 5.80109 11.329 5.61032 11.4697 5.46967C11.6103 5.32902 11.8011 5.25 12 5.25C12.1989 5.25 12.3897 5.32902 12.5303 5.46967C12.671 5.61032 12.75 5.80109 12.75 6C12.75 6.19891 12.671 6.38968 12.5303 6.53033C12.3897 6.67098 12.1989 6.75 12 6.75ZM12 12.75C11.8011 12.75 11.6103 12.671 11.4697 12.5303C11.329 12.3897 11.25 12.1989 11.25 12C11.25 11.8011 11.329 11.6103 11.4697 11.4697C11.6103 11.329 11.8011 11.25 12 11.25C12.1989 11.25 12.3897 11.329 12.5303 11.4697C12.671 11.6103 12.75 11.8011 12.75 12C12.75 12.1989 12.671 12.3897 12.5303 12.5303C12.3897 12.671 12.1989 12.75 12 12.75ZM12 18.75C11.8011 18.75 11.6103 18.671 11.4697 18.5303C11.329 18.3897 11.25 18.1989 11.25 18C11.25 17.8011 11.329 17.6103 11.4697 17.4697C11.6103 17.329 11.8011 17.25 12 17.25C12.1989 17.25 12.3897 17.329 12.5303 17.4697C12.671 17.6103 12.75 17.8011 12.75 18C12.75 18.1989 12.671 18.3897 12.5303 18.5303C12.3897 18.671 12.1989 18.75 12 18.75Z" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+					</svg>
+					<div class="flex flex-col">
+					  <span class="countdown font-mono text-5xl">
+						<span style="--value:24;"></span>
+					  </span>
+					  <span class="text-[#12121299] mt-4">Minutes</span>
+					</div> 
+					<svg class="mt-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+						<path d="M12 6.75C11.8011 6.75 11.6103 6.67098 11.4697 6.53033C11.329 6.38968 11.25 6.19891 11.25 6C11.25 5.80109 11.329 5.61032 11.4697 5.46967C11.6103 5.32902 11.8011 5.25 12 5.25C12.1989 5.25 12.3897 5.32902 12.5303 5.46967C12.671 5.61032 12.75 5.80109 12.75 6C12.75 6.19891 12.671 6.38968 12.5303 6.53033C12.3897 6.67098 12.1989 6.75 12 6.75ZM12 12.75C11.8011 12.75 11.6103 12.671 11.4697 12.5303C11.329 12.3897 11.25 12.1989 11.25 12C11.25 11.8011 11.329 11.6103 11.4697 11.4697C11.6103 11.329 11.8011 11.25 12 11.25C12.1989 11.25 12.3897 11.329 12.5303 11.4697C12.671 11.6103 12.75 11.8011 12.75 12C12.75 12.1989 12.671 12.3897 12.5303 12.5303C12.3897 12.671 12.1989 12.75 12 12.75ZM12 18.75C11.8011 18.75 11.6103 18.671 11.4697 18.5303C11.329 18.3897 11.25 18.1989 11.25 18C11.25 17.8011 11.329 17.6103 11.4697 17.4697C11.6103 17.329 11.8011 17.25 12 17.25C12.1989 17.25 12.3897 17.329 12.5303 17.4697C12.671 17.6103 12.75 17.8011 12.75 18C12.75 18.1989 12.671 18.3897 12.5303 18.5303C12.3897 18.671 12.1989 18.75 12 18.75Z" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+					</svg>
+					<div class="flex flex-col">
+					  <span class="countdown font-mono text-5xl">
+						<span style="--value:50;"></span>
+					  </span>
+					  <span class="text-[#12121299] mt-4">Seconds</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="card-container mt-6 lg:mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center lg:justify-items-stretch gap-6">
+				<div class="h-[477px] rounded-lg border border-[#12121299] p-12 max-w-[342px] text-center">
+					<img class="mx-auto mb-12" src="./images/fruit6.png" alt="fruit6">
+					<strong>12.90$ - 18.85$</strong>
+					<hr class="my-6">
+					<span class="block mb-6">Apples</span>
+
+					<div class="rating rating-lg w-full justify-center rating-half">
+						<input type="radio" name="rating-1" class="rating-hidden" />
+						<input type="radio" name="rating-1" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+						<input type="radio" name="rating-1" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+						<input type="radio" name="rating-1" class="bg-[#F85559] mask mask-star-2 mask-half-1" checked />
+						<input type="radio" name="rating-1" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+						<input type="radio" name="rating-1" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+						<input type="radio" name="rating-1" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+						<input type="radio" name="rating-1" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+						<input type="radio" name="rating-1" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+						<input type="radio" name="rating-1" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+						<input type="radio" name="rating-1" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+					  </div>
+
+					<a class="mt-8 block text-[#F85559]" href="#">Details</a>
+				</div>
+				<div class="h-[477px] rounded-lg border border-[#12121299] p-12 max-w-[342px] text-center">
+					<img class="mx-auto mb-12" src="./images/fruit7.png" alt="fruit6">
+					<strong>12.90$ - 18.85$</strong>
+					<hr class="my-6">
+					<span class="block mb-6">Orange</span>
+
+					<div class="rating rating-lg w-full justify-center rating-half">
+						<input type="radio" name="rating-2" class="rating-hidden" />
+						<input type="radio" name="rating-2" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+						<input type="radio" name="rating-2" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+						<input type="radio" name="rating-2" class="bg-[#F85559] mask mask-star-2 mask-half-1" checked />
+						<input type="radio" name="rating-2" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+						<input type="radio" name="rating-2" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+						<input type="radio" name="rating-2" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+						<input type="radio" name="rating-2" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+						<input type="radio" name="rating-2" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+						<input type="radio" name="rating-2" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+						<input type="radio" name="rating-2" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+					  </div>
+
+					<a class="mt-8 block text-[#F85559]" href="#">Details</a>
+				</div>
+				<div class="h-[477px] rounded-lg border border-[#12121299] p-12 max-w-[342px] text-center">
+					<img class="mx-auto mb-12" src="./images/fruit8.png" alt="fruit6">
+					<strong>12.90$ - 18.85$</strong>
+					<hr class="my-6">
+					<span class="block mb-6">Red Dragon</span>
+
+					<div class="rating rating-lg w-full justify-center rating-half">
+						<input type="radio" name="rating-3" class="rating-hidden" />
+						<input type="radio" name="rating-3" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+						<input type="radio" name="rating-3" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+						<input type="radio" name="rating-3" class="bg-[#F85559] mask mask-star-2 mask-half-1" checked />
+						<input type="radio" name="rating-3" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+						<input type="radio" name="rating-3" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+						<input type="radio" name="rating-3" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+						<input type="radio" name="rating-3" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+						<input type="radio" name="rating-3" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+						<input type="radio" name="rating-3" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+						<input type="radio" name="rating-3" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+					  </div>
+
+					<a class="mt-8 block text-[#F85559]" href="#">Details</a>
+				</div>
+				<div class="h-[477px] rounded-lg border border-[#12121299] p-12 max-w-[342px] text-center">
+					<img class="mx-auto mb-12" src="./images/fruit9.png" alt="fruit6">
+					<strong>12.90$ - 18.85$</strong>
+					<hr class="my-6">
+					<span class="block mb-6">Banana</span>
+
+					<div class="rating rating-lg w-full justify-center rating-half">
+						<input type="radio" name="rating-4" class="rating-hidden" />
+						<input type="radio" name="rating-4" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+						<input type="radio" name="rating-4" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+						<input type="radio" name="rating-4" class="bg-[#F85559] mask mask-star-2 mask-half-1" checked />
+						<input type="radio" name="rating-4" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+						<input type="radio" name="rating-4" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+						<input type="radio" name="rating-4" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+						<input type="radio" name="rating-4" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+						<input type="radio" name="rating-4" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+						<input type="radio" name="rating-4" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+						<input type="radio" name="rating-4" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+					  </div>
+
+					<a class="mt-8 block text-[#F85559]" href="#">Details</a>
+				</div>
+			</div>
+
+			<button class="btn bg-[#F85559] hover:bg-[#F85500] hover:scale-125 border-0 text-white normal-case mx-auto my-6 lg:mt-12 lg:mb-36 block">Shop All</button>
+		</section>
 
 	</main>
 </body>
