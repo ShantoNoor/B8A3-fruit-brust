@@ -30,9 +30,9 @@
               maxWidth: {
                 'xxl': '1440px',
               },
-							screens: {
-								'nav-break': '1270px',
-							}
+				screens: {
+					'nav-break': '1270px',
+				}
             }
           }
         }
@@ -44,10 +44,10 @@
 		<nav class="navbar nav-break:text-white nav-break:bg-[#F85559] nav-break:grid nav-break:grid-cols-3 nav-break:justify-items-center nav-break:items-center nav-break:rounded-[600px] nav-break:py-9">
 			<div class="hidden nav-break:block nav-break:justify-self-start pl-12">
 				<ul class="menu menu-horizontal px-1 text-lg">
-					<li><a>Home</a></li>
-					<li><a>About Us</a></li>
-					<li><a>Shop</a></li>
-					<li><a>All Fruits</a></li>
+					<li><a class="hover:text-white hover:bg-[#F85500] hover:scale-125 duration-300">Home</a></li>
+					<li><a class="hover:text-white hover:bg-[#F85500] hover:scale-125 duration-300">About Us</a></li>
+					<li><a class="hover:text-white hover:bg-[#F85500] hover:scale-125 duration-300">Shop</a></li>
+					<li><a class="hover:text-white hover:bg-[#F85500] hover:scale-125 duration-300">All Fruits</a></li>
 				</ul>
 			</div>
 			<div class="flex justify-between w-full nav-break:w-auto">
@@ -74,19 +74,19 @@
 				<svg class="absolute right-[80px] top-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
 					<path d="M20.9998 21L15.8028 15.803M15.8028 15.803C17.2094 14.3965 17.9996 12.4887 17.9996 10.4995C17.9996 8.51035 17.2094 6.60262 15.8028 5.19605C14.3962 3.78947 12.4885 2.99927 10.4993 2.99927C8.51011 2.99927 6.60238 3.78947 5.19581 5.19605C3.78923 6.60262 2.99902 8.51035 2.99902 10.4995C2.99902 12.4887 3.78923 14.3965 5.19581 15.803C6.60238 17.2096 8.51011 17.9998 10.4993 17.9998C12.4885 17.9998 14.3962 17.2096 15.8028 15.803Z" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 				</svg>
-				<input type="search" placeholder="Search here" class="input rounded-[50px] w-[400px] pl-7 py-4 self-center" />
+				<input type="search" placeholder="Search here" class="input rounded-[50px] w-[400px] pl-7 py-4 self-center text-[#F85559]" />
 			</div>
 		</nav>
 	</header>
 
 	<main>
 		<!-- banner -->
-		<div class="carousel flex max-w-xxl lg:mx-auto h-[300px] md:h-auto mx-5">
+		<div class="carousel flex max-w-xxl lg:mx-auto h-[300px] md:h-auto mx-5 rounded-lg">
 			<div id="slide1" class="carousel-item relative w-full">
-				<div class="absolute z-10 w-full text-center pt-16 lg:pt-20 text-white hero-overlay bg-opacity-40">
+				<div class="absolute z-10 w-full text-center pt-16 lg:pt-20 text-white bg-gradient-to-t from-[#12121200] to-[#121212FF]">
 					<h1 class="font-extrabold text-2xl lg:text-7xl">Exotic tastes at your<br>doorstep</h1>
 					<p class="font-light text-sm lg:text-xl lg:mt-6 lg:mb-8 mt-3 mb-4">We supply highly quality organic products</p>
-					<button class="btn bg-[#F85559] hover:bg-[#F85500] hover:scale-125 border-0 text-white normal-case ">Shop Now</button>
+					<button class="btn btn-lg bg-[#F85559] hover:bg-[#F85500] hover:scale-125 border-0 text-white normal-case">Shop Now</button>
 				</div>
 			  <img src="./images/banner1.png" class="w-full object-cover" />
 			  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 z-20">
@@ -103,7 +103,7 @@
 			  </div>
 			</div> 
 			<div id="slide2" class="carousel-item relative w-full">
-				<div class="absolute z-10 w-full text-center pt-16 lg:pt-20 text-white hero-overlay bg-opacity-40">
+				<div class="absolute z-10 w-full text-center pt-16 lg:pt-20 text-white bg-gradient-to-t from-[#12121200] to-[#121212FF]">
 					<h1 class="font-extrabold text-2xl lg:text-7xl">Exotic tastes at your<br>doorstep</h1>
 					<p class="font-light text-sm lg:text-xl lg:mt-6 lg:mb-8 mt-3 mb-4">We supply highly quality organic products</p>
 					<button class="btn bg-[#F85559] hover:bg-[#F85500] hover:scale-125 border-0 text-white normal-case ">Shop Now</button>
@@ -123,7 +123,7 @@
 			  </div>
 			</div> 
 			<div id="slide3" class="carousel-item relative w-full">
-				<div class="absolute z-10 w-full text-center pt-16 lg:pt-20 text-white hero-overlay bg-opacity-40">
+				<div class="absolute z-10 w-full text-center pt-16 lg:pt-20 text-white bg-gradient-to-t from-[#12121200] to-[#121212FF]">
 					<h1 class="font-extrabold text-2xl lg:text-7xl">Exotic tastes at your<br>doorstep</h1>
 					<p class="font-light text-sm lg:text-xl lg:mt-6 lg:mb-8 mt-3 mb-4">We supply highly quality organic products</p>
 					<button class="btn bg-[#F85559] hover:bg-[#F85500] hover:scale-125 border-0 text-white normal-case ">Shop Now</button>
@@ -143,7 +143,7 @@
 			  </div>
 			</div> 
 			<div id="slide4" class="carousel-item relative w-full">
-				<div class="absolute z-10 w-full text-center pt-16 lg:pt-20 text-white hero-overlay bg-opacity-40">
+				<div class="absolute z-10 w-full text-center pt-16 lg:pt-20 text-white bg-gradient-to-t from-[#12121200] to-[#121212FF]">
 					<h1 class="font-extrabold text-2xl lg:text-7xl">Exotic tastes at your<br>doorstep</h1>
 					<p class="font-light text-sm lg:text-xl lg:mt-6 lg:mb-8 mt-3 mb-4">We supply highly quality organic products</p>
 					<button class="btn bg-[#F85559] hover:bg-[#F85500] hover:scale-125 border-0 text-white normal-case ">Shop Now</button>
@@ -162,8 +162,32 @@
 				</a>
 			  </div>
 			</div> 
-			
-		  </div>
+		</div>
+
+		<!-- fruits after banner -->
+		<div class="banner-fruits hidden lg:flex max-w-[1140px] mx-auto justify-between text-center p-12 relative  -top-[6vw] z-40 bg-white rounded-lg shadow-md">
+			<div class="fruit-item">
+				<img src="./images/fruit1.png" alt="fruit1">
+				<span>Raspberry</span>
+			</div>
+			<div class="fruit-item">
+				<img src="./images/fruit2.png" alt="fruit1">
+				<span>Orange</span>
+			</div>
+			<div class="fruit-item">
+				<img src="./images/fruit3.png" alt="fruit1">
+				<span>Mango</span>
+			</div>
+			<div class="fruit-item">
+				<img src="./images/fruit4.png" alt="fruit1">
+				<span>Strawberry</span>
+			</div>
+			<div class="fruit-item">
+				<img src="./images/fruit5.png" alt="fruit1">
+				<span>Mango</span>
+			</div>
+		</div>
+
 	</main>
 </body>
 </html>
