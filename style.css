@@ -48,12 +48,6 @@
 
 @media screen and (max-width: 1439px) {
     .feature-container {
-        /* grid-template-areas: 
-            'fe-img fe-img'
-            'fe-l1 fe-r1'
-            'fe-l2 fe-r2'
-            'fe-l3 fe-r3'
-        ; */
         grid-template-areas: 
             'fe-l1 fe-img fe-img'
             'fe-l2 fe-img fe-img'
@@ -64,6 +58,17 @@
 }
 
 @media screen and (max-width: 1023px) {
+    .feature-container {
+        grid-template-areas: 
+            'fe-img fe-img'
+            'fe-l1 fe-r1'
+            'fe-l2 fe-r2'
+            'fe-l3 fe-r3'
+        ;
+    }
+}
+
+@media screen and (max-width: 640px) {
     .feature-container {
         gap: 20px;
         grid-template-areas: 
